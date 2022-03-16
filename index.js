@@ -4,7 +4,7 @@ var config = require('./configTwit');
 var T = new Twit(config);
 var CronJob = require('cron').CronJob;
 
-const myAccount = '1501686863584768000'; //Ur account to avoid replying to yourself
+const myAccount = '1446220334353506311'; //Ur account to avoid replying to yourself
 var statusTweet = `Visit the future of Finance in crypto: @trush_io. Their services are the solution for utilising the daily usage of financial services! `; //Add your tweet here
 var isRunning = false;
 var hashtags = ['#airdrop'];
