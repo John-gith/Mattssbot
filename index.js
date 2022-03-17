@@ -7,7 +7,7 @@ var CronJob = require('cron').CronJob;
 const myAccount = '1446220334353506311'; //Ur account to avoid replying to yourself
 var statusTweet = `Visit the future of Finance in crypto: @trush_io. Their services are the solution for utilising the daily usage of financial services! `; //Add your tweet here
 var isRunning = false;
-var hashtags = ['#airdrop'];
+var hashtags = ['#airdrop','#crypto'];
 
 var job = new CronJob('*/15 * * * *', function () {
     if (isRunning == false) {
